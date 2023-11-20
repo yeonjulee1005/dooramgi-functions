@@ -106,3 +106,27 @@ vector_port = 54328
 gcp_project_id = ""
 gcp_project_number = ""
 gcp_jwt_path = "supabase/gcloud.json"
+
+[functions.height_task_create_github_issue]
+verify_jwt = false
+
+[functions.height_task_update_github_issue]
+verify_jwt = false
+
+[functions.height_task_droped_github_issue]
+verify_jwt = false
+
+[functions.height_alarm_to_slack]
+verify_jwt = false
+
+[functions.github_branch_alarm_to_slack]
+verify_jwt = false
+
+[functions.github_pr_alarm_to_slack]
+verify_jwt = false
+
+[functions.github_deploy_alarm_to_slack]
+verify_jwt = false
+
+[functions.radiojocky]
+verify_jwt = false
